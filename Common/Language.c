@@ -1,4 +1,25 @@
 /*
+
+Most of the source code contained in this file is taken from the source code of
+TrueCrypt 7.0a which is governed by the TrueCrypt License 3.0 that can be found
+in the file 'License.txt' in the folder 'TrueCrypt-License'.
+
+Modifications and additions to the original source code (contained in this file)
+and all other portions of this file are Copyright (c) 2009-2010 by Kih-Oskh
+
+
+Changes made to the original source file:
+
+	static char *MapNextLanguageFile ()
+
+		- changed second arg in call of wcscpy(...) from L"\\Language*.xml"
+		  to L"\\<>Language*.xml" (reason: disable TrueCrypt language files)
+
+
+-------------------------------------------------------------------------------
+
+Original legal notice of the TrueCrypt source:
+
  Copyright (c) 2005-2009 TrueCrypt Developers Association. All rights reserved.
 
  Governed by the TrueCrypt License 3.0 the full text of which is contained in
@@ -69,7 +90,7 @@ static char *MapNextLanguageFile ()
 		t = wcsrchr (f, L'\\');
 		if (t == NULL) return NULL;
 
-		wcscpy (t, L"\\Language*.xml");
+		wcscpy (t, L"\\<>Language*.xml");
 
 		LanguageFileFindHandle = FindFirstFileW (f, &find);
 	}
@@ -182,10 +203,10 @@ BOOL LoadLanguageFile ()
 				memset (&font, 0, sizeof (font));
 
 				XmlGetAttributeText (xml, "face", attr, sizeof (attr));
-			
+
 				len = MultiByteToWideChar (CP_UTF8, 0, attr, -1, wattr, sizeof (wattr) / sizeof(wattr[0]));
 				font.FaceName = AddPoolData ((void *) wattr, len * 2);
-				
+
 				XmlGetAttributeText (xml, "size", attr, sizeof (attr));
 				sscanf (attr, "%d", &font.Size);
 
@@ -278,7 +299,7 @@ BOOL LoadLanguageFile ()
 	LocalizationSerialNo++;
 
 	// Create control ID dictionary
-	
+
 	// Default controls
 	AddDictionaryEntry (NULL, 1, GetString ("IDOK"));
 	AddDictionaryEntry (NULL, 2, GetString ("IDCANCEL"));
@@ -372,7 +393,7 @@ BOOL CALLBACK LanguageDlgProc (HWND hwndDlg, UINT msg, WPARAM wParam, LPARAM lPa
 
 								SendDlgItemMessage (hwndDlg, IDC_LANGLIST, LB_SETCURSEL, i, 0);
 
-								// Language pack version 
+								// Language pack version
 								if (!ActiveLangPackVersion[0] || memcmp (ActiveLangPackVersion, "0.0.0", 5) == 0)
 								{
 									swprintf (szVers, GetString("LANG_PACK_VERSION"), L"--");
@@ -406,12 +427,12 @@ BOOL CALLBACK LanguageDlgProc (HWND hwndDlg, UINT msg, WPARAM wParam, LPARAM lPa
 			if (lParam == 1)
 			{
 				// Auto mode
-				if (langCount < 2) 
+				if (langCount < 2)
 					EndDialog (hwndDlg, IDCANCEL);
 
 				if (langCount == 2)
 					strcpy (PreferredLangId, lastLangId);
-				
+
 				EndDialog (hwndDlg, IDOK);
 			}
 
@@ -443,8 +464,8 @@ BOOL CALLBACK LanguageDlgProc (HWND hwndDlg, UINT msg, WPARAM wParam, LPARAM lPa
 						l[3] = (char) (id >> 16);
 						l[4] = id >> 24;
 						l[5] = 0;
-					}	
-		
+					}
+
 					if (SendDlgItemMessage (hwndDlg, IDC_LANGLIST, LB_GETCOUNT, 0, 0) > 1)
 						strcpy (PreferredLangId, l);
 				}

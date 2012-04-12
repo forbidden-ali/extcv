@@ -2,8 +2,7 @@
 // Microsoft Visual C++ generated include file.
 // Used by Common.rc
 //
-#define IDI_TRUECRYPT_ICON              501
-#define IDI_TRUECRYPT_VOL_ICON          502
+#define IDI_TRUECRYPT_ICON              119
 #define IDD_BENCHMARK_DLG               503
 #define IDD_MOUNT_OPTIONS               504
 #define IDD_KEYFILES                    505
@@ -18,9 +17,6 @@
 #define IDD_CIPHER_TEST_DLG             514
 #define IDR_LICENSE                     515
 #define IDD_AUXILIARY_DLG               516
-#define IDB_TEXTUAL_LOGO_BKG            517
-#define IDB_TEXTUAL_LOGO_96DPI          518
-#define IDB_TEXTUAL_LOGO_288DPI         519
 #define IDR_BOOT_SECTOR                 520
 #define IDR_BOOT_SECTOR_AES             521
 #define IDR_BOOT_SECTOR_SERPENT         522
@@ -42,6 +38,7 @@
 #define IDD_TOKEN_KEYFILES              538
 #define IDD_NEW_TOKEN_KEYFILE           539
 #define IDD_RANDOM_POOL_ENRICHMENT      540
+#define IDB_LOGO                        544
 #define IDC_HW_AES_LABEL_LINK           5000
 #define IDC_HW_AES                      5001
 #define IDC_PARALLELIZATION_LABEL_LINK  5002
@@ -162,11 +159,11 @@
 #define IDT_STATIC_MODELESS_WAIT_DLG_INFO 5117
 
 // Next default values for new objects
-// 
+//
 #ifdef APSTUDIO_INVOKED
 #ifndef APSTUDIO_READONLY_SYMBOLS
 #define _APS_NO_MFC                     1
-#define _APS_NEXT_RESOURCE_VALUE        541
+#define _APS_NEXT_RESOURCE_VALUE        545
 #define _APS_NEXT_COMMAND_VALUE         40001
 #define _APS_NEXT_CONTROL_VALUE         5118
 #define _APS_NEXT_SYMED_VALUE           101
