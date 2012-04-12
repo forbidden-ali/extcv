@@ -140,7 +140,8 @@ extern BOOL DeviceChangeBroadcastDisabled;
 extern BOOL LastMountedVolumeDirty;
 extern BOOL MountVolumesAsSystemFavorite;
 extern BOOL FavoriteMountOnArrivalInProgress;
-extern BOOL MultipleMountOperationInProgress;
+// extern BOOL MultipleMountOperationInProgress;
+// TODO: Check what is up with that define, merge errer on TC 7.0a->7.1a update
 
 
 enum tc_app_msg_ids

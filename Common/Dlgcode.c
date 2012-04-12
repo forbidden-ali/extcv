@@ -160,7 +160,8 @@ BOOL DeviceChangeBroadcastDisabled = FALSE;
 BOOL LastMountedVolumeDirty;
 BOOL MountVolumesAsSystemFavorite = FALSE;
 BOOL FavoriteMountOnArrivalInProgress = FALSE;
-BOOL MultipleMountOperationInProgress = FALSE;
+//BOOL MultipleMountOperationInProgress = FALSE;
+// TODO: Check what is up with that define, merge errer on TC 7.0a->7.1a update
 
 /* Handle to the device driver */
 HANDLE hDriver = INVALID_HANDLE_VALUE;
@@ -6136,7 +6137,8 @@ retry:
 			return -1;
 		}
 
-		if (!quiet && (!MultipleMountOperationInProgress || GetLastError() != ERROR_NOT_READY))
+		// TODO: Check what is up with that define, merge errer on TC 7.0a->7.1a update
+		if (!quiet && (/*!MultipleMountOperationInProgress || */GetLastError() != ERROR_NOT_READY))
 			handleWin32Error (hwndDlg);
 
 		return -1;
