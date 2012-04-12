@@ -15,15 +15,15 @@
 #define TC_APP_NAME						"TrueCrypt"
 
 // Version displayed to user 
-#define VERSION_STRING					"7.0a"
+#define VERSION_STRING					"7.1a"
 
 // Version number to compare against driver
-#define VERSION_NUM						0x070a
+#define VERSION_NUM						0x071a
 
 // Release date
-#define TC_STR_RELEASE_DATE				"September 6, 2010"
-#define TC_RELEASE_DATE_YEAR			2010
-#define TC_RELEASE_DATE_MONTH			9
+#define TC_STR_RELEASE_DATE				"February 7, 2012"
+#define TC_RELEASE_DATE_YEAR			2012
+#define TC_RELEASE_DATE_MONTH			2
 
 #define BYTES_PER_KB                    1024LL
 #define BYTES_PER_MB                    1048576LL

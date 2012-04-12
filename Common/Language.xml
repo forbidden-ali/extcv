@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <extcv>
-  <localization prog-version="7.0a">
+  <localization prog-version="7.1a">
     <!-- Languages -->
     <language langid="en" name="English" en-name="English" version="0.0.0" translators="" />
     <!-- Fonts -->
@@ -14,6 +14,7 @@
     <control lang="en" key="IDC_BROWSE">Bro&amp;wse...</control>
     <control lang="en" key="IDC_DESKTOP_ICON">Add the Software icon to &amp;desktop</control>
     <control lang="en" key="IDC_FILE_TYPE">Associate the .tc file &amp;extension with the Software</control>
+    <control lang="en" key="IDC_FILE_TYPE">Associate the .tc file &amp;extension with TrueCrypt</control>
     <control lang="en" key="IDC_OPEN_CONTAINING_FOLDER">&amp;Open the destination location when finished</control>
     <control lang="en" key="IDC_PROG_GROUP">Add the Software to &amp;Start menu</control>
     <control lang="en" key="IDC_SYSTEM_RESTORE">Create System &amp;Restore point</control>
@@ -108,8 +109,6 @@
     <control lang="en" key="IDC_CREATE">Create</control>
     <control lang="en" key="IDC_CREATE_VOLUME">&amp;Create Volume</control>
     <control lang="en" key="IDC_DISABLE_BOOT_LOADER_OUTPUT">Do not &amp;show any texts in the pre-boot authentication screen (except the below custom message)</control>
-    <control lang="en" key="IDC_DISMOUNT_CONFIRM_MSG_BOX">Display confirmation message box after dismount</control>
-    <control lang="en" key="IDC_DISMOUNT_CONFIRM_PLAY_SOUND">Play system notification sound after mount/dismount</control>
     <control lang="en" key="IDC_ENABLE_HARDWARE_ENCRYPTION">Accelerate AES encryption/decryption by using the AES instructions of the processor (if available)</control>
     <control lang="en" key="IDC_ENABLE_KEYFILES">Use keyfiles</control>
     <control lang="en" key="IDC_ENABLE_NEW_KEYFILES">Use keyfiles</control>
@@ -125,8 +124,10 @@
     <control lang="en" key="IDC_FAVORITE_OPEN_EXPLORER_WIN_ON_MOUNT">Open &amp;Explorer window for selected volume when successfully mounted</control>
     <control lang="en" key="IDC_FAVORITE_REMOVE">&amp;Remove</control>
     <control lang="en" key="IDC_FAV_VOL_OPTIONS_GLOBAL_SETTINGS_BOX">Global Settings</control>
+    <control lang="en" key="IDC_HK_DISMOUNT_BALLOON_TOOLTIP">Display balloon tooltip after successful hot-key dismount</control>
+    <control lang="en" key="IDC_HK_DISMOUNT_PLAY_SOUND">Play system notification sound after successful hot-key dismount</control>
     <control lang="en" key="IDC_HK_MOD_ALT">Alt</control>
-    <control lang="en" key="IDC_HK_MOD_CTRL">Control</control>
+    <control lang="en" key="IDC_HK_MOD_CTRL">Ctrl</control>
     <control lang="en" key="IDC_HK_MOD_SHIFT">Shift</control>
     <control lang="en" key="IDC_HK_MOD_WIN">Win</control>
     <control lang="en" key="IDC_HOTKEY_ASSIGN">Assign</control>
@@ -142,7 +143,6 @@
     <control lang="en" key="IDC_NEW_KEYFILES">Keyfiles...</control>
     <control lang="en" key="IDC_PREF_BKG_TASK_ENABLE">Enabled</control>
     <control lang="en" key="IDC_PREF_CACHE_PASSWORDS">Cache passwords in driver memory</control>
-    <control lang="en" key="IDC_PREF_CLOSE_DISMOUNTED_WINDOWS">Close all Explorer windows of volume being dismounted</control>
     <control lang="en" key="IDC_PREF_DISMOUNT_INACTIVE">Auto-dismount volume after no data has been read/written to it for</control>
     <control lang="en" key="IDC_PREF_DISMOUNT_LOGOFF">User logs off</control>
     <control lang="en" key="IDC_PREF_DISMOUNT_POWERSAVING">Entering power saving mode</control>
@@ -153,6 +153,7 @@
     <control lang="en" key="IDC_PREF_MOUNT_READONLY">Mount volumes as read-only</control>
     <control lang="en" key="IDC_PREF_MOUNT_REMOVABLE">Mount volumes as removable media</control>
     <control lang="en" key="IDC_PREF_OPEN_EXPLORER">Open Explorer window for successfully mounted volume</control>
+    <control lang="en" key="IDC_PREF_USE_DIFF_TRAY_ICON_IF_VOL_MOUNTED">Use a different taskbar icon when there are mounted volumes</control>
     <control lang="en" key="IDC_PREF_WIPE_CACHE_ON_AUTODISMOUNT">Wipe cached passwords on auto-dismount</control>
     <control lang="en" key="IDC_PREF_WIPE_CACHE_ON_EXIT">Wipe cached passwords on exit</control>
     <control lang="en" key="IDC_PRESERVE_TIMESTAMPS">Preserve modification timestamp of file containers</control>
@@ -179,29 +180,26 @@
     <control lang="en" key="IDD_TOKEN_PREFERENCES">the Software - Security Token Preferences</control>
     <control lang="en" key="IDD_TRAVELER_DLG">the Software Traveler Disk Setup</control>
     <control lang="en" key="IDD_VOLUME_PROPERTIES">TrueCrypt Volume Properties</control>
-    <control lang="en" key="IDM_ABOUT">About...</control>
+    <control lang="en" key="IDM_ABOUT">About</control>
     <control lang="en" key="IDM_ADD_REMOVE_VOL_KEYFILES">Add/Remove Keyfiles to/from Volume...</control>
     <control lang="en" key="IDM_ADD_VOLUME_TO_FAVORITES">Add Mounted Volume to Favorites...</control>
     <control lang="en" key="IDM_ADD_VOLUME_TO_SYSTEM_FAVORITES">Add Mounted Volume to System Favorites...</control>
     <control lang="en" key="IDM_ANALYZE_SYSTEM_CRASH">Analyze a System Crash...</control>
     <control lang="en" key="IDM_BACKUP_VOL_HEADER">Backup Volume Header...</control>
     <control lang="en" key="IDM_BENCHMARK">Benchmark...</control>
-    <control lang="en" key="IDM_BUGREPORT">Report a Bug...</control>
     <control lang="en" key="IDM_CHANGE_HEADER_KEY_DERIV_ALGO">Set Header Key Derivation Algorithm...</control>
     <control lang="en" key="IDM_CHANGE_PASSWORD">Change Volume Password...</control>
     <control lang="en" key="IDM_CHANGE_SYS_HEADER_KEY_DERIV_ALGO">Set Header Key Derivation Algorithm...</control>
     <control lang="en" key="IDM_CHANGE_SYS_PASSWORD">Change Password...</control>
     <control lang="en" key="IDM_CLEAR_HISTORY">Clear Volume History</control>
     <control lang="en" key="IDM_CLOSE_ALL_TOKEN_SESSIONS">Close All Security Token Sessions</control>
-    <control lang="en" key="IDM_CONTACT">Contact...</control>
+    <control lang="en" key="IDM_CONTACT">Contact</control>
     <control lang="en" key="IDM_CREATE_HIDDEN_OS">Create Hidden Operating System...</control>
     <control lang="en" key="IDM_CREATE_RESCUE_DISK">Create Rescue Disk...</control>
     <control lang="en" key="IDM_CREATE_VOLUME">Create New Volume...</control>
     <control lang="en" key="IDM_DEFAULT_KEYFILES">Default Keyfiles...</control>
-    <control lang="en" key="IDM_DONATIONS">Donations...</control>
     <control lang="en" key="IDM_ENCRYPT_SYSTEM_DEVICE">Encrypt System Partition/Drive...</control>
     <control lang="en" key="IDM_FAQ">Frequently Asked Questions</control>
-    <control lang="en" key="IDM_FORUMS">Forums</control>
     <control lang="en" key="IDM_HELP">User's Guide</control>
     <control lang="en" key="IDM_HOMEPAGE">&amp;Homepage </control>
     <control lang="en" key="IDM_HOTKEY_SETTINGS">Hot Keys...</control>
@@ -260,7 +258,7 @@
     <control lang="en" key="IDT_FAVORITE_LABEL">Label of selected favorite volume:</control>
     <control lang="en" key="IDT_FILE_SETTINGS">File Settings</control>
     <control lang="en" key="IDT_HOTKEY_KEY">Key to assign:</control>
-    <control lang="en" key="IDT_HW_AES_SUPPORTED_BY_CPU">Processor (CPU) in this computer provides hardware acceleration for AES:</control>
+    <control lang="en" key="IDT_HW_AES_SUPPORTED_BY_CPU">Processor (CPU) in this computer supports hardware acceleration for AES:</control>
     <control lang="en" key="IDT_LOGON">Actions to perform upon logon to Windows</control>
     <control lang="en" key="IDT_MINUTES">minutes</control>
     <control lang="en" key="IDT_MOUNT_LETTER">Mount volume as drive letter:</control>
@@ -283,7 +281,6 @@
     <control lang="en" key="IDC_CONTINUE">&amp;Continue</control>
     <control lang="en" key="IDC_DECRYPT">&amp;Decrypt</control>
     <control lang="en" key="IDC_DELETE">&amp;Delete</control>
-    <control lang="en" key="IDC_DONATIONS">Donations...</control>
     <control lang="en" key="IDC_ENCRYPT">&amp;Encrypt</control>
     <control lang="en" key="IDC_EXPORT">&amp;Export...</control>
     <control lang="en" key="IDC_GENERATE_AND_SAVE_KEYFILE">Generate and Save Keyfile...</control>
@@ -506,7 +503,8 @@
     <string lang="en" key="HIDVOL_PROT_WARN_AFTER_MOUNT">The hidden volume is now protected against damage until the outer volume is dismounted.\n\nWARNING: If any data is attempted to be saved to the hidden volume area, the Software will start write-protecting the entire volume (both the outer and the hidden part) until it is dismounted. This may cause filesystem corruption on the outer volume, which (if repeated) might adversely affect plausible deniability of the hidden volume. Therefore, you should make every effort to avoid writing to the hidden volume area. Any data being saved to the hidden volume area will not be saved and will be lost. Windows may report this as a write error ("Delayed Write Failed" or "The parameter is incorrect").</string>
     <string lang="en" key="HIDVOL_PROT_WARN_AFTER_MOUNT_PLURAL">Each of the hidden volumes within the newly mounted volumes is now protected against damage until dismounted.\n\nWARNING: If any data is attempted to be saved to protected hidden volume area of any of these volumes, the Software will start write-protecting the entire volume (both the outer and the hidden part) until it is dismounted. This may cause filesystem corruption on the outer volume, which (if repeated) might adversely affect plausible deniability of the hidden volume. Therefore, you should make every effort to avoid writing to the hidden volume area. Any data being saved to protected hidden volume areas will not be saved and will be lost. Windows may report this as a write error ("Delayed Write Failed" or "The parameter is incorrect").</string>
     <string lang="en" key="DAMAGE_TO_HIDDEN_VOLUME_PREVENTED">WARNING: Data were attempted to be saved to the hidden volume area of the volume mounted as %c:! the Software prevented these data from being saved in order to protect the hidden volume. This may have caused filesystem corruption on the outer volume and Windows may have reported a write error ("Delayed Write Failed" or "The parameter is incorrect"). The entire volume (both the outer and the hidden part) will be write-protected until it is dismounted. If this is not the first time the Software has prevented data from being saved to the hidden volume area of this volume, plausible deniability of this hidden volume might be adversely affected (due to possible unusual correlated inconsistencies within the outer volume file system). Therefore, you should consider creating a new TrueCrypt volume (with Quick Format disabled) and moving files from this volume to the new volume; this volume should be securely erased (both the outer and the hidden part). We strongly recommend that you restart the operating system now.</string>
-    <string lang="en" key="CAN_CREATE_ONLY_HIDDEN_VOLUMES_UNDER_HIDDEN_OS">For security reasons, when a hidden operating system is running, you can create only hidden TrueCrypt volumes.</string>
+    <string lang="en" key="CANNOT_SATISFY_OVER_4G_FILE_SIZE_REQ">You have indicated intent to store files larger than 4 GB on the volume. This requires the volume to be formatted as NTFS, which, however, will not be possible.</string>
+    <string lang="en" key="CANNOT_CREATE_NON_HIDDEN_NTFS_VOLUMES_UNDER_HIDDEN_OS">Please note that when a hidden operating system is running, non-hidden TrueCrypt volumes cannot be formatted as NTFS. The reason is that the volume would need to be temporarily mounted without write protection in order to allow the operating system to format it as NTFS (whereas formatting as FAT is performed by TrueCrypt, not by the operating system, and without mounting the volume). For further technical details, see below. You can create a non-hidden NTFS volume from within the decoy operating system.</string>
     <string lang="en" key="HIDDEN_VOL_CREATION_UNDER_HIDDEN_OS_HOWTO">For security reasons, when a hidden operating system is running, hidden volumes can be created only in the 'direct' mode (because outer volumes must always be mounted as read-only). To create a hidden volume securely, follow these steps:\n\n1) Boot the decoy system.\n\n2) Create a normal TrueCrypt volume and, to this volume, copy some sensitive-looking files that you actually do NOT want to hide (the volume will become the outer volume).\n\n3) Boot the hidden system and start the TrueCrypt Volume Creation Wizard. If the volume is file-hosted, move it to the system partition or to another hidden volume (otherwise, the newly created hidden volume would be mounted as read-only and could not be formatted). Follow the instructions in the wizard so as to select the 'direct' hidden volume creation mode.\n\n4) In the wizard, select the volume you created in step 2 and then follow the instructions to create a hidden volume within it.</string>
     <string lang="en" key="HIDDEN_OS_WRITE_PROTECTION_BRIEF_INFO">For security reasons, when a hidden operating system is running, local unencrypted filesystems and non-hidden TrueCrypt volumes are mounted as read-only (no data can be written to such filesystems or the Software volumes).\n\nData is allowed to be written to any filesystem that resides within a hidden the Software volume (provided that the hidden volume is not located in a container stored on an unencrypted filesystem or on any other read-only filesystem).</string>
     <string lang="en" key="HIDDEN_OS_WRITE_PROTECTION_EXPLANATION">There are three main reasons why such countermeasures have been implemented:\n\n- It enables the creation of a secure platform for mounting of hidden TrueCrypt volumes. Note that we officially recommend that hidden volumes are mounted only when a hidden operating system is running. (For more information, see the subsection 'Security Requirements and Precautions Pertaining to Hidden Volumes' in the documentation.)\n\n- In some cases, it is possible to determine that, at a certain time, a particular filesystem was not mounted under (or that a particular file on the filesystem was not saved or accessed from within) a particular instance of an operating system (e.g. by analyzing and comparing filesystem journals, file timestamps, application logs, error logs, etc). This might indicate that a hidden operating system is installed on the computer. The countermeasures prevent these issues.\n\n- It prevents data corruption and allows safe hibernation. When Windows resumes from hibernation, it assumes that all mounted filesystems are in the same state as when the system entered hibernation. the Software ensures this by write-protecting any filesystem accessible both from within the decoy and hidden systems. Without such protection, the filesystem could become corrupted when mounted by one system while the other system is hibernated.</string>
@@ -589,6 +587,7 @@
     <string lang="en" key="PASSWORD_WRONG_AUTOMOUNT">Incorrect password or no TrueCrypt volume found.</string>
     <string lang="en" key="PASSWORD_OR_KEYFILE_WRONG_AUTOMOUNT">Incorrect keyfile(s)/password or no TrueCrypt volume found.</string>
     <string lang="en" key="PASSWORD_WRONG_CAPSLOCK_ON">\n\nWarning: Caps Lock is on. This may cause you to enter your password incorrectly.</string>
+    <string lang="en" key="HIDDEN_FILES_PRESENT_IN_KEYFILE_PATH">\n\nWARNING: Hidden file(s) have been found in a keyfile search path. Such hidden files cannot be used as keyfiles. If you need to use them as keyfiles, remove their 'Hidden' attribute (right-click each of them, select 'Properties', uncheck 'Hidden' and click OK). Note: Hidden files are visible only if the corresponding option is enabled (Computer > Organize > 'Folder and search options' > View).</string>
     <string lang="en" key="HIDDEN_VOL_PROT_PASSWORD_US_KEYB_LAYOUT">If you are attempting to protect a hidden volume containing a hidden system, please make sure you are using the standard US keyboard layout when typing the password for the hidden volume. This is required due to the fact that the password needs to be typed in the pre-boot environment (before Windows starts) where non-US Windows keyboard layouts are not available.</string>
     <string lang="en" key="FOUND_NO_PARTITION_W_DEFERRED_INPLACE_ENC">the Software has not found any volume where non-system encryption has been interrupted and where the volume header can be decrypted using the supplied password and/or keyfile(s).\n\nPlease make sure the password and/or keyfile(s) are correct and that the partition/volume is not being used by the system or applications (including antivirus software).</string>
     <string lang="en" key="SYSENC_MOUNT_WITHOUT_PBA_NOTE">\n\nNote: If you are attempting to mount a partition located on an encrypted system drive without pre-boot authentication or to mount the encrypted system partition of an operating system that is not running, you can do so by selecting 'System' > 'Mount Without Pre-Boot Authentication'.</string>
@@ -630,11 +629,12 @@
     <string lang="en" key="UNMOUNT_BUTTON">&amp;Dismount</string>
     <string lang="en" key="UNMOUNT_FAILED">Dismount failed!</string>
     <string lang="en" key="UNMOUNT_LOCK_FAILED">Volume contains files or folders being used by applications or system.\n\nForce dismount?</string>
+    <string lang="en" key="NO_VOLUME_MOUNTED_TO_DRIVE">No volume is mounted to the specified drive letter.</string>
     <string lang="en" key="VOL_ALREADY_MOUNTED">The volume you are trying to mount is already mounted. </string>
     <string lang="en" key="VOL_MOUNT_FAILED">An error occurred when attempting to mount volume.</string>
     <string lang="en" key="VOL_SEEKING">Error seeking location within volume.</string>
     <string lang="en" key="VOL_SIZE_WRONG">Error: Incorrect volume size.</string>
-    <string lang="en" key="WARN_QUICK_FORMAT">WARNING: You should use Quick Format only in the following cases:\n\n1) The device contains random data (e.g. has already been securely and fully encrypted).\n2) You are going to use all available space immediately.\n3) You are not concerned with security (testing).\n\nAre you sure you want to use Quick Format?</string>
+    <string lang="en" key="WARN_QUICK_FORMAT">WARNING: You should use Quick Format only in the following cases:\n\n1) The device contains no sensitive data and you do not need plausible deniability.\n2) The device has already been securely and fully encrypted.\n\nAre you sure you want to use Quick Format?</string>
     <string lang="en" key="CONFIRM_SPARSE_FILE">Dynamic container is a pre-allocated NTFS sparse file whose physical size (actual disk space used) grows as new data is added to it.\n\nWARNING: Performance of sparse-file-hosted volumes is significantly worse than performance of regular volumes. Sparse-file-hosted volumes are also less secure, because it is possible to tell which volume sectors are unused. Furthermore, sparse-file-hosted volumes cannot provide plausible deniability (host a hidden volume). Also note that if data is written to a sparse file container when there is not enough free space in the host file system, the encrypted file system may get corrupted.\n\nAre you sure you want to create a sparse-file-hosted volume?</string>
     <string lang="en" key="SPARSE_FILE_SIZE_NOTE">Note that the size of the dynamic container reported by Windows and by TrueCrypt will always be equal to its maximum size. To find out current physical size of the container (actual disk space it uses), right-click the container file (in a Windows Explorer window, not in the Software), then select 'Properties' and see the 'Size on disk' value.</string>
     <string lang="en" key="PASSWORD_CACHE_WIPED">Passwords stored in the device driver cache have been wiped.</string>
@@ -680,6 +680,7 @@
     <string lang="en" key="HIDDEN_VOL_HOST_NTFS">Note: The FAT file system is more suitable for outer volumes than the NTFS file system (for example, the maximum possible size of the hidden volume would very likely have been significantly greater if the outer volume had been formatted as FAT).</string>
     <string lang="en" key="HIDDEN_VOL_HOST_NTFS_ASK">Note that the FAT file system is more suitable for outer volumes than the NTFS file system. For example, the maximum possible size of the hidden volume will very likely be significantly greater if the outer volume is formatted as FAT (the reason is that the NTFS file system always stores internal data exactly in the middle of the volume and, therefore, the hidden volume can reside only in the second half of the outer volume).\n\nAre you sure you want to format the outer volume as NTFS?</string>
     <string lang="en" key="OFFER_FAT_FORMAT_ALTERNATIVE">Do you want to format the volume as FAT instead?</string>
+    <string lang="en" key="FAT_NOT_AVAILABLE_FOR_SO_LARGE_VOLUME">Note: This volume cannot be formatted as FAT, because it exceeds the maximum volume size supported by the FAT32 filesystem for the applicable sector size (2 TB for 512-byte sectors and 16 TB for 4096-byte sectors).</string>
     <string lang="en" key="PARTITION_TOO_SMALL_FOR_HIDDEN_OS">Error: The partition for the hidden operating system (i.e. the first partition behind the system partition) must be at least 5% larger than the system partition (the system partition is the one where the currently running operating system is installed).</string>
     <string lang="en" key="PARTITION_TOO_SMALL_FOR_HIDDEN_OS_NTFS">Error: The partition for the hidden operating system (i.e. the first partition behind the system partition) must be at least 110% (2.1 times) larger than the system partition (the system partition is the one where the currently running operating system is installed). The reason is that the NTFS file system always stores internal data exactly in the middle of the volume and, therefore, the hidden volume (which is to contain a clone of the system partition) can reside only in the second half of the partition.</string>
     <string lang="en" key="OUTER_VOLUME_TOO_SMALL_FOR_HIDDEN_OS_NTFS">Error: If the outer volume is formatted as NTFS, it must be at least 110% (2.1 times) larger than the system partition. The reason is that the NTFS file system always stores internal data exactly in the middle of the volume and, therefore, the hidden volume (which is to contain a clone of the system partition) can reside only in the second half of the outer volume.\n\nNote: The outer volume needs to reside within the same partition as the hidden operating system (i.e. within the first partition behind the system partition).</string>
@@ -762,7 +763,7 @@
     <string lang="en" key="EXTRACTION_OPTIONS_TITLE">Extraction Options</string>
     <string lang="en" key="EXTRACTION_OPTIONS_INFO">Here you can set various options to control the extraction process.</string>
     <string lang="en" key="EXTRACTION_PROGRESS_INFO">Please wait while files are being extracted.</string>
-    <string lang="en" key="EXTRACTION_FINISHED_TITLE">Extraction Complete</string>
+    <string lang="en" key="EXTRACTION_FINISHED_TITLE_DON">Files successfully extracted</string>
     <string lang="en" key="EXTRACTION_FINISHED_INFO">All files have been successfully extracted to the destination location.</string>
     <string lang="en" key="AUTO_FOLDER_CREATION">If the specified folder does not exist, it will be automatically created.</string>
     <string lang="en" key="SETUP_UPGRADE_DESTINATION">The the Software program files will be upgraded in the location where the Software is installed. If you need to select a different location, please uninstall the Software first.</string>
@@ -938,9 +939,10 @@
     <string lang="en" key="PAGING_FILE_CREATION_PREVENTED">Paging file creation has been prevented.\n\nPlease note that, due to Windows issues, paging files cannot be located on non-system TrueCrypt volumes (including system favorite volumes). the Software supports creation of paging files only on an encrypted system partition/drive.</string>
     <string lang="en" key="SYS_ENC_HIBERNATION_PREVENTED">An error or incompatibility prevents the Software from encrypting the hibernation file. Therefore, hibernation has been prevented.\n\nNote: When a computer hibernates (or enters a power-saving mode), the content of its system memory is written to a hibernation storage file residing on the system drive. the Software would not be able to prevent encryption keys and the contents of sensitive files opened in RAM from being saved unencrypted to the hibernation storage file.</string>
     <string lang="en" key="HIDDEN_OS_HIBERNATION_PREVENTED">Hibernation has been prevented.\n\nthe Software does not support hibernation on hidden operating systems that use an extra boot partition. Please note that the boot partition is shared by both the decoy and the hidden system. Therefore, in order to prevent data leaks and problems while resuming from hibernation, the Software has to prevent the hidden system from writing to the shared boot partition and from hibernating.</string>
-    <string lang="en" key="MOUNTED_VOLUMES_DISMOUNTED">All mounted TrueCrypt volumes have been dismounted.</string>
-    <string lang="en" key="DISMOUNT_ALL_ATTEMPT_COMPLETED">Attempt to dismount all mounted TrueCrypt volumes completed.</string>
-    <string lang="en" key="VOLUMES_DISMOUNTED_CACHE_WIPED">All mounted TrueCrypt volumes have been dismounted and password cache has been wiped.</string>
+    <string lang="en" key="VOLUME_MOUNTED_AS_DRIVE_LETTER_X_DISMOUNTED">TrueCrypt volume mounted as %c: has been dismounted.</string>
+    <string lang="en" key="MOUNTED_VOLUMES_DISMOUNTED">TrueCrypt volumes have been dismounted.</string>
+    <string lang="en" key="VOLUMES_DISMOUNTED_CACHE_WIPED">TrueCrypt volumes have been dismounted and password cache has been wiped.</string>
+    <string lang="en" key="SUCCESSFULLY_DISMOUNTED">Successfully dismounted</string>
     <string lang="en" key="CONFIRM_BACKGROUND_TASK_DISABLED">WARNING: If the the Software Background Task is disabled, the following functions will be disabled:\n\n1) Hot keys\n2) Auto-dismount (e.g., upon logoff, inadvertent host device removal, time-out, etc.)\n3) Auto-mount of favorite volumes\n4) Notifications (e.g., when damage to hidden volume is prevented)\n5) Tray icon\n\nNote: You can shut down the Background Task anytime by right-clicking the the Software tray icon and selecting 'Exit'.\n\nAre you sure you want to permanently disable the the Software Background Task?</string>
     <string lang="en" key="CONFIRM_NO_FORCED_AUTODISMOUNT">WARNING: If this option is disabled, volumes containing open files/directories will not be possible to auto-dismount.\n\nAre you sure you want to disable this option?</string>
     <string lang="en" key="WARN_PREF_AUTO_DISMOUNT">WARNING: Volumes containing open files/directories will NOT be auto-dismounted.\n\nTo prevent this, enable the following option in this dialog window: 'Force auto-dismount even if volume contains open files or directories'</string>
@@ -999,6 +1001,7 @@
     <string lang="en" key="SYSENC_UNSUPPORTED_FOR_DYNAMIC_DISK">the Software does not support encrypting a system drive that has been converted to a dynamic disk.</string>
     <string lang="en" key="WDE_UNSUPPORTED_FOR_EXTENDED_PARTITIONS">The system drive contains extended (logical) partitions.\n\nYou can encrypt an entire system drive containing extended (logical) partitions only on Windows Vista and later versions of Windows. On Windows XP, you can encrypt an entire system drive provided that it contains only primary partitions.\n\nNote: You can still encrypt the system partition instead of the entire system drive (and, in addition to that, you can create partition-hosted TrueCrypt volumes within any non-system partitions on the drive).</string>
     <string lang="en" key="WDE_EXTENDED_PARTITIONS_WARNING">WARNING: As you are running Windows XP/2003, after you start encrypting the drive, you must NOT create any extended (logical) partitions on it (you may create only primary partitions). Any extended (logical) partition on the drive would be inaccessible after you start encrypting (the drive currently does not contain any such partition).\n\nNote: If this limitation is not acceptable, you can go back and choose to encrypt only the system partition instead of the entire drive (and, in addition to that, you can create partition-hosted TrueCrypt volumes within any non-system partitions on the drive).\n\nAlternatively, if this limitation is not acceptable, you may want to consider upgrading to Windows Vista or a later version of Windows (you can encrypt an entire system drive containing extended/logical partitions only on Windows Vista or later).</string>
+    <string lang="en" key="SYSDRIVE_NON_STANDARD_PARTITIONS">Your system drive contains a non-standard partition.\n\nIf you are using a notebook, your system drive probably contains a special recovery partition. After the whole system drive is encrypted (including any recovery partition), your system might become unbootable if your computer is using an inappropriately designed BIOS. It would also be impossible to use any recovery partition until the system drive is decrypted. Therefore, we recommend that you encrypt only the system partition.</string>
     <string lang="en" key="ASK_ENCRYPT_PARTITION_INSTEAD_OF_DRIVE">Do you want to encrypt the system partition instead of the entire drive?\n\nNote that you can create partition-hosted TrueCrypt volumes within any non-system partitions on the drive (in addition to encrypting the system partition).</string>
     <string lang="en" key="WHOLE_SYC_DEVICE_RECOM">As your system drive contains only a single partition that occupies the whole drive, it is preferable (more secure) to encrypt the entire drive including the free "slack" space that typically surrounds such a partition.\n\nDo you want to encrypt the entire system drive?</string>
     <string lang="en" key="TEMP_NOT_ON_SYS_PARTITION">Your system is configured to store temporary files on a non-system partition.\n\nTemporary files may be stored only on the system partition.</string>
@@ -1044,8 +1047,9 @@
     <string lang="en" key="WIPE_MODE_7_DOD_5220">7-pass (US DoD 5220.22-M)</string>
     <string lang="en" key="WIPE_MODE_35_GUTMANN">35-pass ("Gutmann")</string>
     <string lang="en" key="SYS_MULTI_BOOT_MODE_TITLE">Number of Operating Systems</string>
-    <string lang="en" key="MULTI_BOOT_HIDDEN_OS_NOT_SUPPORTED">Multi-boot configurations are not supported when creating a hidden operating system.</string>
     <string lang="en" key="MULTI_BOOT_FOR_ADVANCED_ONLY">WARNING: Inexperienced users should never attempt to encrypt Windows in multi-boot configurations.\n\nContinue?</string>
+    <string lang="en" key="HIDDEN_OS_MULTI_BOOT">When creating/using a hidden operating system, TrueCrypt supports multi-boot configurations only when the following conditions are met:\n\n- The currently running operating system must be installed on the boot drive, which must not contain any other operating systems.\n\n- Operating systems installed on other drives must not use any boot loader residing on the drive on which the currently running operating system is installed.\n\nAre the above conditions met?</string>
+    <string lang="en" key="UNSUPPORTED_HIDDEN_OS_MULTI_BOOT_CFG">TrueCrypt does not support this multi-boot configuration when creating/using a hidden operating system.</string>
     <string lang="en" key="SYSENC_MULTI_BOOT_SYS_EQ_BOOT_TITLE">Boot Drive</string>
     <string lang="en" key="SYSENC_MULTI_BOOT_SYS_EQ_BOOT_HELP">Is the currently running operating system installed on the boot drive?\n\nNote: Sometimes, Windows is not installed on the same drive as the Windows boot loader (boot partition). If that is the case, select 'No'.</string>
     <string lang="en" key="SYS_PARTITION_MUST_BE_ON_BOOT_DRIVE">the Software currently does not support encrypting an operating system that does not boot from the drive on which it is installed.</string>
@@ -1202,12 +1206,14 @@
     <string lang="en" key="MOUNTED_CONTAINER_FORCED_READ_ONLY">Volume '%s' has been mounted as read-only because write access was denied.\n\nPlease make sure the security permissions of the file container allow you to write to it (right-click the container and select Properties > Security).\n\nNote that, due to a Windows issue, you may see this warning even after setting the appropriate security permissions. This is not caused by a bug in the Software. A possible solution is to move your container to, e.g., your 'Documents' folder.\n\nIf you intend to keep your volume read-only, set the read-only attribute of the container (right-click the container and select Properties > Read-only), which will suppress this warning.</string>
     <string lang="en" key="MOUNTED_DEVICE_FORCED_READ_ONLY">Volume '%s' had to be mounted as read-only because write access was denied.\n\nPlease make sure no other application (e.g. antivirus software) is accessing the partition/device on which the volume is hosted.</string>
     <string lang="en" key="MOUNTED_DEVICE_FORCED_READ_ONLY_WRITE_PROTECTION">Volume '%s' has been mounted as read-only because the operating system reported the host device to be write-protected.\n\nPlease note that some custom chipset drivers have been reported to cause writable media to falsely appear write-protected. This problem is not caused by TrueCrypt. It may be solved by updating or uninstalling any custom (non-Microsoft) chipset drivers that are currently installed on this system.</string>
-    <string lang="en" key="LIMIT_ENC_THREAD_POOL_NOTE">Note that the Hyper-Threading technology provides multiple logical cores per a single physical core. When Hyper Threading is enabled, the number selected above represents the number of logical processors (cores).</string>
+    <string lang="en" key="LIMIT_ENC_THREAD_POOL_NOTE">Note that the Hyper-Threading technology provides multiple logical cores per a single physical core. When Hyper Threading is enabled, the number selected above represents the number of logical processors/cores.</string>
     <string lang="en" key="NUMBER_OF_THREADS">%d threads</string>
     <string lang="en" key="DISABLED_HW_AES_AFFECTS_PERFORMANCE">Note that hardware-accelerated AES is disabled, which will affect benchmark results (worse performance).\n\nTo enable hardware acceleration, select 'Settings' > 'Performance' and enable the corresponding option.</string>
     <string lang="en" key="LIMITED_THREAD_COUNT_AFFECTS_PERFORMANCE">Note that the number of threads is currently limited, which will affect benchmark results (worse performance).\n\nTo utilize the full potential of the processor(s), select 'Settings' > 'Performance' and disable the corresponding option.</string>
     <string lang="en" key="ASK_REMOVE_DEVICE_WRITE_PROTECTION">Do you want the Software to attempt to disable write protection of the partition/drive?</string>
     <string lang="en" key="CONFIRM_SETTING_DEGRADES_PERFORMANCE">WARNING: This setting may degrade performance.\n\nAre you sure you want to use this setting?</string>
+    <string lang="en" key="HOST_DEVICE_REMOVAL_DISMOUNT_WARN_TITLE">Warning: TrueCrypt volume auto-dismounted</string>
+    <string lang="en" key="HOST_DEVICE_REMOVAL_DISMOUNT_WARN">Before you physically remove or turn off a device containing a mounted volume, you should always dismount the volume in TrueCrypt first.\n\nUnexpected spontaneous dismount is usually caused by an intermittently failing cable, drive (enclosure), etc.</string>
     <string lang="en" key="TEST">Test</string>
     <string lang="en" key="KEYFILE">Keyfile</string>
     <string lang="en" key="VKEY_08">Backspace</string>
