@@ -110,5 +110,6 @@ Tracker at the project homepage.
 
 F) Changelog	
 ------------
+- Version 0.7: update to TrueCrypt 7.1a sources, requires TrueCrypt 7.1a
 - Version 0.6: compatible with header version 5, requires TrueCrpyt 7.0a
 - Version 0.5: initial Release (requires TrueCrpyt 6.2a)

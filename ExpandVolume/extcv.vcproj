@@ -200,6 +200,10 @@
 		</Configuration>
 	</Configurations>
 	<References>
+		<ProjectReference
+			ReferencedProjectIdentifier="{993245CF-6B70-47EE-91BB-39F8FC6DC0E7}"
+			RelativePathToProject=".\Crypto\Crypto.vcproj"
+		/>
 	</References>
 	<Files>
 		<Filter
