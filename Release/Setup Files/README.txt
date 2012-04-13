@@ -25,7 +25,7 @@ F) Changelog
 A) Requirements for extcv:
 --------------------------
 - a Microsoft Windows operating system supported by TrueCrypt
-- an installation of TrueCrypt 7.0a
+- an installation of TrueCrypt 7.1a
 - administrator rights
 
 
