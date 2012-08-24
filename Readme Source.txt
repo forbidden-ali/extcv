@@ -1,5 +1,5 @@
 
-This archive contains the source code of extcv 0.6
+This archive contains the source code of extcv 0.7
 
 Important
 =========
@@ -7,7 +7,7 @@ You may use the source code contained in this archive only if you accept and
 agree to be bound by the license terms contained in the file 'License.txt',
 which is included in this archive.
 
-Homepage: http://sourceforge.net/projects/extcv/
+Homepage: https://bitbucket.org/j0s3f/extcv/overview
 
 
 Contents
@@ -25,7 +25,7 @@ Building extcv from the source code
 A) Requirements for building extcv:
 -----------------------------------
 
-- Microsoft Visual C++ 2008 SP1 (Professional Edition or compatible)
+- Microsoft Visual C++ 2010 (Professional Edition or compatible)
 - RSA Security Inc. PKCS #11 Cryptographic Token Interface (Cryptoki) 2.20 header
   files (available at ftp://ftp.rsasecurity.com/pub/pkcs/pkcs-11/v2-20)
 - nasm assembler
@@ -38,7 +38,7 @@ B) Instructions for building extcv:
    an environment variable 'PKCS11_INC' pointing to the directory where
    the PKCS #11 header files are installed.
 
-2) Open the 'extcv.sln' solution in Microsoft Visual Studio 2008.
+2) Open the 'extcv.sln' solution in Microsoft Visual Studio 2010.
 
 5) Build the solution (projects 'Crypto' and 'extcv').
 
