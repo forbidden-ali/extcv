@@ -2,7 +2,7 @@
 extcv License Details
 =====================
 
-extcv is derived from TrueCrypt 7.0a, which is governed by the TrueCrypt
+extcv is derived from TrueCrypt 7.1a, which is governed by the TrueCrypt
 License 3.0 that can be found in the file 'License.txt' in the folder
 'TrueCrypt-License'.
 
