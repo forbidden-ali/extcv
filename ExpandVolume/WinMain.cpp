@@ -810,7 +810,7 @@ BOOL CALLBACK MainDialogProc (HWND hwndDlg, UINT uMsg, WPARAM wParam, LPARAM lPa
 		if (lw == IDM_HOMEPAGE )
 		{
 			ArrowWaitCursor ();
-			ShellExecute (NULL, "open", "http://sourceforge.net/projects/extcv/", NULL, NULL, SW_SHOWNORMAL);
+			ShellExecute (NULL, "open", "https://bitbucket.org/j0s3f/extcv/overview", NULL, NULL, SW_SHOWNORMAL);
 			Sleep (200);
 			NormalCursor ();
 
