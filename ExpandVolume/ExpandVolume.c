@@ -797,7 +797,7 @@ static int ExpandVolume (HWND hwndDlg, char *lpszVolume, Password *pVolumePasswo
 			newDataAreaSize,
 			0, // hiddenVolumeSize
 			cryptoInfo->EncryptedAreaStart.Value,
-			cryptoInfo->EncryptedAreaLength.Value,
+			newDataAreaSize,
 			cryptoInfo->RequiredProgramVersion,
 			cryptoInfo->HeaderFlags,
 			cryptoInfo->SectorSize,
