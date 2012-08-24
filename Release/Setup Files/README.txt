@@ -1,7 +1,7 @@
 
-This archive contains the binary version (executable) of extcv 0.6
+This archive contains the binary version (executable) of extcv 0.7
 
-Homepage: http://sourceforge.net/projects/extcv/
+Homepage: https://bitbucket.org/j0s3f/extcv/overview
 
 
 Important
