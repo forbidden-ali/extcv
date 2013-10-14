@@ -5,7 +5,8 @@ TrueCrypt 7.0a, which is governed by the TrueCrypt License 3.0 that can be found
 in the file 'License.txt' in the folder 'TrueCrypt-License'.
 
 Modifications and additions to the original source code (contained in this file)
-and all other portions of this file are Copyright (c) 2009-2010 by Kih-Oskh
+and all other portions of this file are Copyright (c) 2009-2010 by Kih-Oskh or
+Copyright (c) 2012-2013 Josef Schneider <josef@netpage.dk>
 
 
 Source code here is copied from 'Common/Format.c' with the following changes:

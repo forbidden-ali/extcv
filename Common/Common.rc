@@ -13,7 +13,7 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// German (Germany) resources
+// Deutsch (Deutschland) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
 #ifdef _WIN32
@@ -36,18 +36,27 @@ IDI_TRUECRYPT_ICON      ICON                    "..\\Common\\extcv.ico"
 //
 
 IDB_LOGO                BITMAP                  "..\\Common\\extcv-logo.bmp"
-#endif    // German (Germany) resources
+#endif    // Deutsch (Deutschland) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// English (U.S.) resources
+// Englisch (USA) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
 #ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 #pragma code_page(1252)
 #endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_TRUECRYPT_MOUNTED_ICON ICON                    "..\\Common\\TrueCrypt_mounted.ico"
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -63,7 +72,7 @@ BEGIN
     EDITTEXT        IDC_ABOUT_CREDITS,7,73,277,83,ES_MULTILINE | ES_READONLY | WS_VSCROLL | NOT WS_TABSTOP
     DEFPUSHBUTTON   "OK",IDOK,233,178,50,14
     LTEXT           "url",IDC_HOMEPAGE,136,56,92,9,SS_NOTIFY
-    CONTROL         "extcv 0.6",IDC_STATIC,"Static",SS_SIMPLE | WS_GROUP,49,20,223,8
+    CONTROL         "extcv 0.7",IDC_STATIC,"Static",SS_SIMPLE | WS_GROUP,49,20,223,8
     CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,1,167,291,1,WS_EX_STATICEDGE
     CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,1,169,291,1,WS_EX_STATICEDGE
     CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,1,48,291,1,WS_EX_STATICEDGE
@@ -516,22 +525,7 @@ END
 
 #endif    // APSTUDIO_INVOKED
 
-
-/////////////////////////////////////////////////////////////////////////////
-//
-// Icon
-//
-
-// Icon with lowest ID value placed first to ensure application icon
-// remains consistent on all systems.
-IDI_TRUECRYPT_MOUNTED_ICON ICON                    "..\\Common\\TrueCrypt_mounted.ico"
-
-/////////////////////////////////////////////////////////////////////////////
-//
-// Bitmap
-//
-
-#endif    // English (U.S.) resources
+#endif    // Englisch (USA) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

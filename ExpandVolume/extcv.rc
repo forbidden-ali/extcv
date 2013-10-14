@@ -229,7 +229,7 @@ BEGIN
         BEGIN
             VALUE "FileDescription", "extcv"
             VALUE "FileVersion", "0.7"
-            VALUE "LegalCopyright", "Copyright © 2010 Kih-Oskh"
+            VALUE "LegalCopyright", "Copyright © 2013 Josef Schneider"
             VALUE "ProductVersion", "0.7"
         END
     END

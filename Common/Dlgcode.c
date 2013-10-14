@@ -5,7 +5,8 @@ TrueCrypt 7.0a which is governed by the TrueCrypt License 3.0 that can be found
 in the file 'License.txt' in the folder 'TrueCrypt-License'.
 
 Modifications and additions to the original source code (contained in this file)
-and all other portions of this file are Copyright (c) 2009-2010 by Kih-Oskh
+and all other portions of this file are
+Copyright (c) 2009-2010 by Kih-Oskh or Copyright (c) 2012-2013 Josef Schneider <josef@netpage.dk>
 
 
 Changes made to the original source file:
@@ -914,13 +915,14 @@ BOOL CALLBACK AboutDlgProc (HWND hwndDlg, UINT msg, WPARAM wParam, LPARAM lParam
 			"Peter Gutmann, and many others."
 			"\r\n\r\n"
 			"Portions of this software:\r\n"
+			"Copyright \xA9 2012-2013 Josef Schneider <josef@netpage.dk>\r\n"
 			"Copyright \xA9 2009-2010 Kih-Oskh. All Rights Reserved.\r\n"
 			"Copyright \xA9 2003-2010 TrueCrypt Foundation. All Rights Reserved.\r\n"
 			"Copyright \xA9 1998-2000 Paul Le Roux. All Rights Reserved.\r\n"
 			"Copyright \xA9 1998-2008 Brian Gladman. All Rights Reserved.\r\n"
 			"Copyright \xA9 2002-2004 Mark Adler. All Rights Reserved.\r\n\r\n"
 			"This software as a whole:\r\n"
-			"Copyright \xA9 2010 Kih-Oskh (see file license.txt). All rights reserved.\r\n\r\n"
+			"Copyright \xA9 2012-2013 Josef Schneider <josef@netpage.dk> (see file license.txt). All rights reserved.\r\n\r\n"
 			"TrueCrypt is a registered trademark of the TrueCrypt Foundation." );
 			return 1;
 		}

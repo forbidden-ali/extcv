@@ -7,7 +7,9 @@ License 3.0 that can be found in the file 'License.txt' in the folder
 'TrueCrypt-License'.
 
 Modifications and additions to the original TrueCrypt source code are
-Copyright (c) 2009-2010 by Kih-Oskh and are governed by this license.
+Copyright (c) 2009-2010 by Kih-Oskh or
+Copyright (c) 2012-2013 Josef Schneider <josef@netpage.dk>
+and are governed by this license.
 
 This software ('extcv') comes with ABSOLUTELY NO WARRANTY and no
 liability for any direct or consequential damage that may result from the

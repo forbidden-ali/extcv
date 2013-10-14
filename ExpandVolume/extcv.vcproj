@@ -589,6 +589,10 @@
 				RelativePath=".\Logo_96dpi.bmp"
 				>
 			</File>
+			<File
+				RelativePath="..\Common\TrueCrypt_mounted.ico"
+				>
+			</File>
 			<Filter
 				Name="Common"
 				>
