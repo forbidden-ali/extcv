@@ -19,5 +19,5 @@ Please also do report all bugs you encounter!
 
 ### Security warning ###
 
-While not filling the new allocated space with random dater is much faster, it might lower your security!
+While not filling the new allocated space with random data is much faster, it might lower your security!
 Choose wisely!
