@@ -13,7 +13,7 @@
 * Download and run extcv.exe
 
 ### Detailed usage ###
-There is a [great blog post](http://wiki.schlimmchen.de/doku.php?id=public:resizing_and_moving_truecrypt_volumes) how to use extcv!
+There is a [great blog post](http://goo.gl/Swm0dz) how to use extcv!
 
 ### Contribution guidelines ###
 
