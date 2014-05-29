@@ -12,6 +12,9 @@
 * For convenience, TrueCrypt 7.1a is available here too. DO NOT USE TRUECRYPT 7.2 or anything other than the 7.1a version for now!
 * Download and run extcv.exe
 
+### Detailed usage ###
+There is a [great blog post](http://wiki.schlimmchen.de/doku.php?id=public:resizing_and_moving_truecrypt_volumes) how to use extcv!
+
 ### Contribution guidelines ###
 
 I am open to accept any useful patches because the original project is dead.
