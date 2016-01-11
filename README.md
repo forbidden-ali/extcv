@@ -5,6 +5,7 @@
 * This is a fork of extcv updated to work with TrueCrypt 7.1a
 * extcv 0.7 is a tool to enlarge a truecrypt container
 * [original, unmaintained project is here](http://sourceforge.net/projects/extcv/)
+* [original, 0.7 version is here](https://bitbucket.org/j0s3f/extcv.git)
 
 ### How do I get set up? ###
 
